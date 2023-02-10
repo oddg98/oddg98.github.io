@@ -1,0 +1,59 @@
+/* Resets */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121113;
+  color: #f7f7f2;
+}
+
+.main-header {
+  background-color: #222725;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.small-subtitle {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #f7f7f2;
+}
+
+.small-subtitle a, .simple-link {
+  color: #e4e6c3;
+}
+
+.small-subtitle a:hover, .simple-link:hover {
+  color: #899878;
+}
+
+.main-content {
+  margin: 20px;
+}
+
+.desc-txt {
+  margin-top: 10px;
+}
+
+.site-section {
+  margin-top: 20px;
+}
+
+.section-header {
+  background-color: #222725;
+  width: 25%;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.stuff-list {
+  margin-left: 20px;
+  margin-top: 10px;
+}
